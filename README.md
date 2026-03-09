@@ -2,6 +2,7 @@ Script to perform automated backup of data to a network server using restricted 
 which ensures that the server is not exposed to general users of the client computers.
 
 Instructions of use:
+
 This script is used to perform passwordless data backups to a network server via the ssh-based rsync protocol 
 rather than using a mounted network drive (e.g. a samba share). In order for the script to work properly and
 only provide passwordless server access to the rsync program, and not passwordless general ssh access, some
