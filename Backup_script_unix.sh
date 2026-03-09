@@ -24,7 +24,7 @@
 # To schedule automatic backups, set up a cron job (Linux) using 'crontab -e' or a task in Task Scheduler (Windows).
 
 source_path=('/path/to/source1' '/path/to/source2' '/path/to/source3')
-dest_prefix='uname@IP.of.file.server:'
+dest_prefix='username@IP.of.file.server:'
 dest_path=('/path/to/dest1' '/path/to/dest2' '/path/to/dest3')
 log_path='/path/to/logfile'
 ssh_key='~/.ssh/private_key_file'
