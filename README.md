@@ -9,7 +9,7 @@ setup is needed on both the client computer and the server.
 
 If the client computer is a Windows machine, first install git-bash (gitforwindows.org) and the ZSTD compression
 tool (https://github.com/facebook/zstd/releases). Download the rsync and libxxhash packages from the msys2 
-repository (repo.msys2.org/msys/x86_64/). Decompress the packages with zstd ('zstd -d /path/to/package')
+repository (https://repo.msys2.org/msys/x86_64/). Decompress the packages with zstd ('zstd -d /path/to/package')
 and merge the contents of the resultant .tar files with the usr folder of the git-bash installation folder.
 git-bash should now have a working rsync implementation.
 If the client machine runs Linux, rsync should already be preinstalled, so the above can be skipped.
